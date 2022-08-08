@@ -43,7 +43,7 @@ export default function Home({imageArray}) {
         </p>
       }
       >
-        {renderImages(imageArray)}
+        {/* {renderImages(imageArray)} */}
         {posts.map((post) => (
           <div key={post.id}>
           <a href={post.links.html}>
